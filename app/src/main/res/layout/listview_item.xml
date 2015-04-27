@@ -1,0 +1,34 @@
+<!--
+ * Name : Himanshu Soni
+ * NetId : hss140330
+ * 30-Oct-2014
+ *
+ * Assignment for CS6301-022
+ *
+ * Description : The layout for the Contact list item
+ * holds the contact name and phone number
+ * a list selector is attached with the layout to highlight
+ * the selected list item.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listItem">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="15dp"
+        android:text="Medium Text"
+        android:id="@+id/itemName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="25dp"
+        android:text="Small Text"
+        android:id="@+id/itemTime" />
+</LinearLayout>

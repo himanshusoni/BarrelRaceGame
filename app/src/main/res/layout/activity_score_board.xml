@@ -1,0 +1,32 @@
+<!--
+ * Name : Himanshu Soni
+ * NetId : hss140330
+ * 30-Oct-2014
+ *
+ * Assignment for CS6301-022
+ *
+ * Description : The layout for the main activity with listview for contactlist
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+    <ListView
+        android:id="@android:id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:choiceMode="singleChoice"
+        android:layout_gravity="center_horizontal">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Scores Yet"
+        android:id="@+id/empty"
+        android:layout_gravity="center" />
+
+</FrameLayout>

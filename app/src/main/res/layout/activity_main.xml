@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome Foo"
+        android:id="@+id/playerNameTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Game"
+        android:id="@+id/playGameButton"
+        android:layout_below="@id/playerNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Scores"
+        android:id="@+id/viewScoresButton"
+        android:layout_below="@+id/playGameButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerNameEditText"
+        android:layout_below="@id/viewScoresButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="Enter your name" />
+
+</RelativeLayout>
